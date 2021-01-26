@@ -1,0 +1,96 @@
+.box{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: ceter;
+    background-color: brown;
+    height: 25px;
+    width: 126px;
+    margin: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    border: 10px black solid;
+    text-align: center;
+
+
+}
+.maintainence{
+    text-align: center;
+    text-transform: capitalize;
+}
+.navigation{
+    overflow: hidden;
+    background-color: #ddd;
+    padding: 10px;
+}
+.navigation a{
+    margin:auto;
+    color:black;
+    text-align: center;
+    padding: 12px;
+    font-size:18px;
+    line-height: 40px;
+    text-decoration: none;
+    
+}
+.navigation a:hover {
+    background-color:blue;
+    color :black;
+}
+.navigation a.active {
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 4px;
+}
+.main{
+    background-color:lightcyan;
+}
+.heading{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+table, th, td{
+    border:1px solid #ddd;
+}
+
+table{
+    margin:auto;
+    width:30%;
+    border-collapse: collapse;
+    padding-top: 0px;
+    
+}
+
+#customers tr:nth-child(even){
+    padding: 12px;
+    background-color: #f2f2f2;
+}
+
+#customers tr:nth-child(odd){
+    padding: 12px;
+    background-color: white;
+}
+#customers td{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#customers th {
+    padding-top: 12px;
+    padding-bottom:12px;
+    text-align: center;
+    background-color: lightgreen;
+    font-weight:bold ;
+    color: white;
+
+}
+#customers tr:hover {background-color: #ddd;}
